@@ -1,0 +1,50 @@
+header{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("home.png");
+  position: absolute;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  position:relative;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a{
+  text-decoration:none;
+  color:white;
+  list-style: none;
+  margin: 20px;
+  padding: 3px;
+
+}
+
+.navbar li{
+  list-style: none;
+  border: 2px solid white;
+  display:inline;
+  float: right;
+  margin: 20px;
+  padding: 3px;
+}
+
+.navbar li a:hover{
+  color: black;
+  background-color: white;
+}
+.navbar li:hover{
+  background-color: white;
+}
+.logo{
+  float:left;
+  margin-left: 20px;
+  color:white;
+}
+.para{
+  font-size: 53px;
+  text-align:center;
+  color: white;
+  padding: 500px;
+}
+.container{
+  text-align: center;
+}
